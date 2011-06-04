@@ -11,9 +11,11 @@ Name=Send File As Attachment
 Name[cz]=Odeslat soubor e-mailem
 Name[de]=Datei als Anhang versenden
 Name[en]=Send File As Attachment
+Name[es]=Enviar como archivo adjunto
 Name[fr]=Envoyer le fichier en pièce jointe
 Name[pt]=Enviar por correio-e
-Name[sk]=Poslať e-mailom
+Name[pt_BR]=Enviar arquivo como anexo
+Name[sk]=Poslať e-mailom	
 
 Icon=kmail
 Exec=kmail --composer --attach %F `echo attachment=\'file://%F\' | sed 's/ \//,file:\/\/\//g'`
