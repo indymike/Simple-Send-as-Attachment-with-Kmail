@@ -1,3 +1,8 @@
+# Send-Attach.desktop
+# Sends selected files as Kmail attachments.
+# v4.0.2 
+# Tested with KDE 4.7.2
+
 [Desktop Entry]
 Type=Service
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin,all/allfiles
@@ -15,7 +20,7 @@ Name[es]=Enviar como archivo adjunto
 Name[fr]=Envoyer le fichier en pièce jointe
 Name[pt]=Enviar por correio-e
 Name[pt_BR]=Enviar arquivo como anexo
-Name[sk]=Poslať e-mailom	
+Name[sk]=Poslať e-mailom
 
 Icon=kmail
 Exec=kmail --composer --attach %F `echo attachment=\'file://%F\' | sed 's/ \//,file:\/\/\//g'`
